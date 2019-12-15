@@ -12,3 +12,6 @@ b77b5c4d   [col]   3                 [bhr] 000000/11 [act] 1                    
 |                |                         |      |        |                                 |
 Branch_PC        Matching PHT column       Ignore BHR      Actual branch taken or not        Prediction
 ```
+
+Note:
+PHT column number is actually equal to BHR value in decimal.
