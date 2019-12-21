@@ -7,10 +7,10 @@ Compare result with `diff -wq <trace_output.out> <trace_answer.out>`
 ### Debug Info Format
 
 ```
-b77b5c4d   [col]   3                 [bhr] 000000/11 [act] 1                           [ret] 1
-^-------         ^--                       ^----- ^-       ^                                 ^
-|                |                         |      |        |                                 |
-Branch_PC        Matching PHT column       Ignore BHR      Actual branch taken or not        Prediction
+b77b5c4d   [col]   3           [row]  00000c4d     [bhr] 000000/11   [cv] 3           [act] 1                           [ret] 1
+^-------         ^--                  ^                  ^----- ^-        ^                 ^                                 ^
+|                |                    |                  |      |         |                 |                                 |
+Branch_PC        Matching PHT column  PHT row number     Ignore BHR       Counter value     Actual branch taken or not        Prediction
 ```
 
 Note:
